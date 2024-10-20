@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 100%;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+    background-image: url(./Images/Body_Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    max-width: 40%;
+    margin: auto;
+    border-radius: .75rem 1.75rem;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #12305E;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 0.12em;
+}
+
+label {
+    font-family: "Prociono", serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #000;
+    color: black;
+    font-weight: 712;
+    text-transform: uppercase;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+
+button {
+    background-color: rgb(191, 5, 129);
+    color: white;
+    font-weight: 769;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0.19rem 0.48rem;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.6s ease-in;
+}
+
+button:hover {
+    transition: 0.54s ease-out;
+    letter-spacing: 0.062rem;
+    border-radius: 0.48rem 0.19rem;
+    opacity: 0.5;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Playwrite GB S", cursive;
+
+}
+
