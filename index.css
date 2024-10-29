@@ -78,9 +78,10 @@ button:hover {
 
 #result {
     margin-top: 20px;
+    padding: 10px;
     font-size: 24px;
     font-weight: bold;
     font-family: "Playwrite GB S", cursive;
-
+    text-align: center;
 }
 
